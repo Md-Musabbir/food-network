@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    margin: 0;
+    padding: 0;
+}
+
+/* common code */
+
+.half-width{
+    width:40%;
+    margin: 0 4%;
+    padding: 0 4%;
+}
+
+.button{
+    text-decoration: none;
+    padding: 18px 50px;
+    background-image: linear-gradient(45deg , lightsalmon , tomato);
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    border-radius: 35px;
+}
+/* common code */
+
+/* hero-section */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-section h1{
+    font-size: 50px;
+    color: #575757;
+    padding-top: 50px;
+}
+.hero-section h1 span{
+    color: lightsalmon;
+}
+.hero-section p{
+    font-size: 18px;
+    color: lightslategrey;
+    padding: 15px 0;
+}
+.hero-section .half-width img{
+    width: 100%;
+    height: auto;
+}
+/* hero-section */
+
+
+/* about-me section */
+
+.about-me{
+    display: flex;
+    background: url(./images/about-bg.jpg);
+    background-size: cover;
+    padding-top: 5em;
+    align-items: center;
+}
+.about-me h2,.recipies h2{
+    font-size: 40px;
+    color: gray;
+}
+.about-me p {
+    font-size: 18px;
+    padding: 45px 0;
+    color: rgb(73, 73, 73);
+    line-height: 1.2em;
+}
+.about-me img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* about-me section */
+
+/* recipies */
+
+.recipies{
+    padding: 5% 10%;
+
+}
+.recipies h2,.recipies>p{
+    text-align: center;
+}
+
+.item-wrapper{
+    margin-top: 1.5em;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.items{
+    margin: 2%;
+    box-shadow: 0 0 23px rgb(0 0 1 / 0.3);
+    padding: 15px 15px 45px 15px;
+    border-radius: 5%;
+}
+.items h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.items p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.items img{
+    width: 100%;
+}
+
+/* recipies */
+/* social media */
+
+.social-media{
+    display: flex;
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 0 0 23px rgb(0 0 1 / 0.3);
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.social-media .counter{
+    text-align: center;
+}
+.social-media .counter h2{
+    font-size: 40px;
+}
+/* social media */
