@@ -99,7 +99,7 @@ nav .menu ul li a{
     display: flex;
     background: url(./images/about-bg.jpg);
     background-size: cover;
-    padding-top: 5em 0;
+    padding-top: 5em;
     align-items: center;
 }
 .about-me h2,.recipies h2{
