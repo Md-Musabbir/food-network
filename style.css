@@ -71,6 +71,7 @@ nav .menu ul li a{
 .hero-section{
     display: flex;
     align-items: center;
+    padding: 5em 0;
 }
 .hero-section h1{
     font-size: 50px;
@@ -98,7 +99,7 @@ nav .menu ul li a{
     display: flex;
     background: url(./images/about-bg.jpg);
     background-size: cover;
-    padding-top: 5em;
+    padding-top: 5em 0;
     align-items: center;
 }
 .about-me h2,.recipies h2{
@@ -160,7 +161,7 @@ nav .menu ul li a{
 
 .social-media{
     display: flex;
-    margin: 5%;
+    margin: 5% 5% 10% 5%;
     padding: 5%;
     box-shadow: 0 0 23px rgb(0 0 1 / 0.3);
     justify-content: space-around;
